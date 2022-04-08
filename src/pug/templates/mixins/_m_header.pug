@@ -1,2 +1,23 @@
 mixin header
 	header.header
+		nav.nav
+			.menu_tag
+				span.menu_tag__title TAGS:
+				+menu({
+					gl_class: 'menu_tag',
+					items: [
+					{title: 'bitcoin ', url: '#', active: false},
+					{title: 'bitcoin ', url: '#', active: false},
+					{title: 'bitcoin ', url: '#', active: false},
+					{title: 'bitcoin ', url: '#', active: false},
+					{title: 'bitcoin ', url: '#', active: false},
+					{title: 'bitcoin ', url: '#', active: false},
+					]
+				})
+			+menu({
+				gl_class: 'menu_info',
+				items: [
+					{title: 'team', url: '#', active: false},
+					{title: 'contact', url: '#', active: false}
+				]
+			})
