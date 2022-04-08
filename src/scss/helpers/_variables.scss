@@ -1,7 +1,9 @@
 //---------------------------------------------fonts
 $font_path: "../fonts/";
-$font_1: 'RobotoCondensed', sans-serif;
-$font_size_base: 1.6rem;
+$font_1: 'Roboto-Regular', sans-serif;
+$font_2: 'Roboto-Light', sans-serif;
+$font_3: 'Roboto-Medium', sans-serif;
+$font_size_base: 1.4rem;
 //---------------------------------------------fonts###
 
 //---------------------------------------------colors
@@ -9,8 +11,11 @@ $white: #fff;
 $black: #000;
 
 $color_text_base: $black;
-$color_link_base:#4aa3df;
+$color_text_title: #323642;
+$color_link_base:#4cb649;
+$color_link_second:#323642;
 $body_bg: $white;
+$color_bg_header: #f7f7f7;
 //---------------------------------------------colors###
 
 //---------------------------------------------z-index
@@ -22,7 +27,7 @@ $z-index: (
 //---------------------------------------------z-index###
 
 //---------------------------------------------layout
-$page_width: 96rem;
+$page_width: 120rem;
 
 //---------------------------------------------layout###
 

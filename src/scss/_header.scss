@@ -1,17 +1,14 @@
 //------------------------------------------------------------layout
 .header {
-	position: fixed;
-	top: 0;
-	left: 0;
 
-	height: var(--height-header);
-	width: 100%;
+	padding: 2.2rem 7.4rem 2.2rem 3.2rem;
 
-	font-size: 1rem;
+	background-color: $color_bg_header;
+	border-radius: 4px;
+}
 
-	will-change: transform;
-
-	@include z-index(header);
+.header__nav {
+	display: flex;
 }
 
 //------------------------------------------------------------layout###
