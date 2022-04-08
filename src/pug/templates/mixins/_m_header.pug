@@ -15,10 +15,11 @@ mixin header
 					{title: 'security', url: '#', active: false}
 					]
 				})
-			+menu({
-				gl_class: 'menu_info',
-				items: [
-					{title: 'team', url: '#', active: false},
-					{title: 'contact', url: '#', active: false}
-				]
-			})
+			.menu_info
+				+menu({
+					gl_class: 'menu_info',
+					items: [
+						{title: 'team', url: '#', active: false},
+						{title: 'contact', url: '#', active: false}
+					]
+				})
