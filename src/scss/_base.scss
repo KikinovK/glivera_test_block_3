@@ -41,14 +41,19 @@ body {
 	min-height: 100%;
 	height: auto !important;
 
+	padding: 4rem 0 4rem 0;
+
 	overflow-x: hidden;
 }
 
 .base {
 	width: 100%;
 	display: flex;
+	justify-content: space-between;
 
 	flex: 1 0 auto;
+
+	padding: 4rem 0 4rem 0;
 }
 
 a {
