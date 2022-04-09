@@ -1,2 +1,18 @@
 include mixins/_m_header
 include mixins/_m_footer
+
+mixin post(data, gl_class)
+  div(class=`${gl_class}__card `)
+    +picture(data.picture)
+    .post__info
+      span.post__autor= data.autor
+      h2.post__title= data.title
+      span.post__date= data.date
+      +menu({
+        gl_class: gl_class + '_card',
+        items: data.links
+      })
+      .post__answer
+        span.answer__count= data.count
+        a.answer__link(href=data.linkAnswer)
+          +icon('count')

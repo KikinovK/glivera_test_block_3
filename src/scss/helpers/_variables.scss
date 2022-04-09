@@ -12,8 +12,10 @@ $black: #000;
 
 $color_text_base: $black;
 $color_text_title: #323642;
+$color_text_content: #22252e;
 $color_link_base:#4cb649;
-$color_link_second:#323642;
+$color_link_second: $color_text_title;
+$color_text_note: #889099;
 $body_bg: $white;
 $color_bg_header: #f7f7f7;
 $color_br_base: #ebeced;
