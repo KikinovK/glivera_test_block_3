@@ -29,4 +29,20 @@
 		fill: transparent;
 
 	}
+
+	&.icon_bell {
+		width: 4rem;
+		height: 4rem;
+
+		stroke: $color_link_base;
+		fill: transparent;
+	}
+
+	&.icon_news {
+		width: 4rem;
+		height: 4rem;
+
+		stroke: $color_link_base;
+		fill: transparent;
+	}
 }

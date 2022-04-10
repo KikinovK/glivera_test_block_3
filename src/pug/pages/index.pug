@@ -15,3 +15,6 @@ block content_block
 			input.search__input(type='text'	placeholder='Search blog' name='search',)
 			span.search__icon
 				+icon('search')
+
+		each itemSelect in ArraySelect
+			+menu_with_title(itemSelect)
