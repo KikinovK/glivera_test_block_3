@@ -19,6 +19,7 @@ $color_text_note: #889099;
 $body_bg: $white;
 $color_bg_header: #f7f7f7;
 $color_br_base: #ebeced;
+$color_br_input: #d7d8d9;
 //---------------------------------------------colors###
 
 //---------------------------------------------z-index
@@ -50,12 +51,12 @@ $point_8: 320px;
 //---------------------------------------------media points
 
 //---------------------------------------------forms
-$input_height: 4rem;
-$input_offset: 0 2rem;
-$input_font_size: $font_size_base;
-$input_border_color: #ccc;
-$input_border_color_active: $black;
-$input_placeholder_color: rgba($black, .4);
-$input_text_color: $black;
-$input_radius: $gl_radius;
+$input_height: 5.8rem;
+$input_offset: 0 2rem 0 5.8rem ;
+$input_font_size: 1.8rem;
+$input_border_color: $color_br_input;
+$input_border_color_active: $color_link_base;
+$input_placeholder_color: $color_text_content;
+$input_text_color: $color_text_content;
+$input_radius: 4px;
 //---------------------------------------------forms###

@@ -20,4 +20,13 @@
 			stroke: $color_link_base;
 		}
 	}
+
+	&.icon_search {
+		width: 2rem;
+		height: 2rem;
+
+		stroke: $color_text_content;
+		fill: transparent;
+
+	}
 }
