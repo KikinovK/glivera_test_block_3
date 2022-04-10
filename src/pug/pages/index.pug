@@ -6,7 +6,8 @@ block content_block
 	main.main
 		h1.main__title Recent posts
 		ul.post__list
-		each item in ArrayPost.items
-			li.post__item
-				+post(item, ArrayPost.gl_class)
+			each item in ArrayPost.items
+				li.post__item
+					+post(item, ArrayPost.gl_class)
+		button.btn(type='button') older post
 	aside.sidebar
