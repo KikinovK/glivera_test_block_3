@@ -15,6 +15,14 @@ block content_block
 			input.search__input(type='text'	placeholder='Search blog' name='search',)
 			span.search__icon
 				+icon('search')
-
 		each itemSelect in ArraySelect
 			+menu_with_title(itemSelect)
+		.baner
+			a.baner__link(href='#' target="default")
+				+picture({
+					class: 'baner__pic',
+					img_class: 'baner__img',
+					jpeg: 'jpeg',
+					is2x: true,
+					img: 'Baner'
+				})
