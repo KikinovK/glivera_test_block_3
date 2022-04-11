@@ -6,22 +6,42 @@
   font-size: 1.4rem;
   letter-spacing: 1px;
   text-transform: uppercase;
+
+  @media(max-width: $point_4) {
+    flex-wrap: wrap ;
+  }
 }
 
 .menu_tag__title {
-  margin-right: 4rem;
+  margin: 0 4rem 0 0;
 
   color: $color_text_title;
+
+  @media(max-width: $point_1) {
+    margin: 0 2rem 0 0;
+  }
 }
 
 .menu_tag__list {
   display: flex;
 
-  margin-right: -4rem;
+  margin: 0 -4rem 0 0;
+
+  @media(max-width: $point_1) {
+    margin: 0 -2rem 0 0;
+  }
+
+  @media(max-width: $point_4) {
+    flex-wrap: wrap ;
+  }
 }
 
 .menu_tag__item {
-  margin-right: 4rem;
+  margin: 0 4rem 0 0;
+
+  @media(max-width: $point_1) {
+    margin: 0 2rem 0 0;
+  }
 }
 
 .menu_tag__link {

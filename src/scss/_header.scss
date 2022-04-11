@@ -5,10 +5,19 @@
 
 	background-color: $color_bg_header;
 	border-radius: 4px;
+
+	@media (max-width: $point_4) {
+		padding: 2.2rem 1rem 2.2rem 1rem;
+
+	}
 }
 
 .header__nav {
 	display: flex;
+
+	@media (max-width: $point_2) {
+		flex-direction: column;
+	}
 }
 
 //------------------------------------------------------------layout###

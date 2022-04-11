@@ -8,6 +8,10 @@
   font-size: 1.4rem;
   letter-spacing: 1px;
   text-transform: uppercase;
+
+  @media (max-width: $point_2) {
+		margin: 1rem 0 0 0;
+	}
 }
 
 .menu_info__list {

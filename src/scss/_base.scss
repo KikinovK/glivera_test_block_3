@@ -41,7 +41,7 @@ body {
 	min-height: 100%;
 	height: auto !important;
 
-	padding: 4rem 0 4rem 0;
+	padding: 4rem 1rem 4rem 1rem;
 
 	overflow-x: hidden;
 }
@@ -54,6 +54,10 @@ body {
 	flex: 1 0 auto;
 
 	padding: 4rem 0 4rem 0;
+
+	@media(max-width: $point_4) {
+    flex-direction: column;
+  }
 }
 
 a {
