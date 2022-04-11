@@ -19,8 +19,12 @@
 }
 
 .post__pic {
-  width: 100%;
+  width: 28.1rem;
   margin: 0 2rem 0 0;
+
+  @media (max-width: $point_1) {
+    width: 100%;
+  }
 }
 
 .post__img {
