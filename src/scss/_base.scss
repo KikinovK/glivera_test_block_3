@@ -59,12 +59,14 @@ body {
 }
 
 a {
+	@extend %transition_color;
+
 	text-decoration: none;
 	color: $color_link_base;
 
 	&:hover,
 	&:focus {
-		text-decoration: underline;
+		color: $color_link_hover;
 	}
 
 }
