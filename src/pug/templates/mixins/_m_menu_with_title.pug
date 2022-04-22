@@ -1,0 +1,10 @@
+mixin menu_with_title(data)
+  nav(class=`${data.gl_class}`)
+    div(class=`${data.gl_class}__caption`)
+      div(class=`${data.gl_class}__icon`)
+        +icon(data.name_icon)
+      h3(class=`${data.gl_class}__title`)= data.title
+    +menu({
+      gl_class: data.gl_class,
+      items: data.items
+    })
