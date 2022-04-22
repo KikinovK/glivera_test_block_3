@@ -1,10 +1,10 @@
 mixin menu_with_title(data)
-  nav(class=`${data.gl_class}`)
-    div(class=`${data.gl_class}__caption`)
-      div(class=`${data.gl_class}__icon`)
+  nav.select
+    div.select__caption
+      div.select__icon
         +icon(data.name_icon)
-      h3(class=`${data.gl_class}__title`)= data.title
+      h3.select__title= data.title
     +menu({
-      gl_class: data.gl_class,
+      gl_class: 'select',
       items: data.items
     })
