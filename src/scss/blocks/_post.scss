@@ -26,6 +26,7 @@
 
 .post__link_pic {
   display: block;
+
   @include bp($point_1) {
     width: 100%;
   }
@@ -108,11 +109,8 @@
 
 .post_card__item  {
   margin-right: 1rem;
-
-  &:last-child .post_card__link::after {
-    content: '';
-  }
 }
+
 
 .post_card__link {
   font-size: 1.2rem;
@@ -123,6 +121,10 @@
     content: ',';
   }
 
+}
+
+.post_card__item:last-child .post_card__link::after {
+  content: '';
 }
 
 .post__answer {
