@@ -13,22 +13,22 @@
 }
 
 .menu_tag__title {
-  margin: 0 4rem 0 0;
+  margin-right: 4rem;
 
   color: $color_text_title;
 
   @media(max-width: $point_1) {
-    margin: 0 2rem 0 0;
+    margin-right: 2rem;
   }
 }
 
 .menu_tag__list {
   display: flex;
 
-  margin: 0 -4rem 0 0;
+  margin-right: -4rem;
 
   @media(max-width: $point_1) {
-    margin: 0 -2rem 0 0;
+    margin-right: -2rem;
   }
 
   @media(max-width: $point_4) {
@@ -37,10 +37,10 @@
 }
 
 .menu_tag__item {
-  margin: 0 4rem 0 0;
+  margin-right: 4rem;
 
   @media(max-width: $point_1) {
-    margin: 0 2rem 0 0;
+    margin-right: 2rem;
   }
 }
 
