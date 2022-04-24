@@ -5,7 +5,7 @@
 }
 
 .header__nav {
-	display: flex;
+	@extend %global_flex_block_row_nowrap_flex-start;
 
 	padding: 2.2rem 7.4rem 2.2rem 3.2rem;
 

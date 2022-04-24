@@ -15,9 +15,10 @@ html {
 }
 
 body {
+	@extend %global_flex_block_row_nowrap_flex-start;
+
 	position: relative;
 
-	display: flex;
 	height: 100%;
 
 	font-size: $font_size_base;
@@ -47,9 +48,12 @@ body {
 }
 
 .base {
+	@extend %global_flex_block_row_nowrap_space_between;
+
 	width: 100%;
-	display: flex;
-	justify-content: space-between;
+	// display: flex;
+	// justify-content: space-between;
+
 
 	flex: 1 0 auto;
 

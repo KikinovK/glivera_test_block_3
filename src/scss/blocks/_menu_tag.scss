@@ -1,5 +1,5 @@
 .menu_tag {
-  display: flex;
+	@extend %global_flex_block_row_nowrap_flex-start;
 
   font-family: $font_3;
   font-weight: 500;
@@ -23,7 +23,7 @@
 }
 
 .menu_tag__list {
-  display: flex;
+	@extend %global_flex_block_row_nowrap_flex-start;
 
   margin-right: -4rem;
 

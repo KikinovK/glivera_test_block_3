@@ -1,5 +1,5 @@
 .menu_info {
-  display: flex;
+	@extend %global_flex_block_row_nowrap_flex-start;
 
   margin-left: auto;
 
@@ -15,7 +15,7 @@
 }
 
 .menu_info__list {
-  display: flex;
+	@extend %global_flex_block_row_nowrap_flex-start;
 
   margin-right: -4rem;
 }

@@ -1,11 +1,12 @@
 .post__list {
-  display: flex;
-  flex-direction: column;
+	@extend %global_flex_block_column_nowrap_flex-start_stretch;
 
   margin-bottom: 4rem;
 }
 
 .post {
+	// @extend %global_flex_block_row_nowrap_flex-start;
+
   --pading_card_left: 0;
   --pading_card_rigth: 1rem;
 
@@ -25,7 +26,7 @@
 
 .post__link_pic {
   display: block;
-
+  flex-grow: 1;
   @media (max-width: $point_1) {
     width: 100%;
   }
@@ -35,7 +36,6 @@
   display: block;
   width: 28.1rem;
   height: 18.1rem;
-  flex-shrink: 0;
 
   margin-right: 2rem;
 
@@ -56,13 +56,15 @@
 
 
 .post__info {
-  display: flex;
-  flex-direction: column;
+	@extend %global_flex_block_column_nowrap_flex-start;
+  // display: flex;
+  // flex-direction: column;
 }
 
 .post__inner {
-  display: flex;
-  align-items: center;
+  @extend %global_flex_block_row_nowrap_flex-start_center;
+  // display: flex;
+  // align-items: center;
 
   margin-bottom: 1rem;
 }
@@ -99,8 +101,9 @@
 }
 
 .post_card__list {
-  display: flex;
-  flex-wrap: wrap;
+  @extend %global_flex_block_row_wrap_flex-start;
+  // display: flex;
+  // flex-wrap: wrap;
   margin: 0 -1rem 1.6rem 0;
 }
 
@@ -124,8 +127,9 @@
 }
 
 .post__answer {
-  display: flex;
-  align-items: center;
+  @extend %global_flex_block_row_nowrap_flex-start_center;
+  // display: flex;
+  // align-items: center;
 }
 
 .answer__count {

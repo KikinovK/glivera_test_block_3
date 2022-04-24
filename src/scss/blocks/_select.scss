@@ -6,8 +6,9 @@
 }
 
 .select__caption {
-  display: flex;
-  align-items: center;
+  @extend %global_flex_block_row_nowrap_flex-start_center;
+  // display: flex;
+  // align-items: center;
 
   margin-bottom: 3rem;
 }
