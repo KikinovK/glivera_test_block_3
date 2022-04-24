@@ -5,13 +5,13 @@
 }
 
 .post {
-	// @extend %global_flex_block_row_nowrap_flex-start;
+	@extend %global_flex_block_row_nowrap_flex-start;
 
   --pading_card_left: 0;
   --pading_card_rigth: 1rem;
 
-  display: flex;
-  align-items: start;
+  // display: flex;
+  // align-items: start;
 
   padding: 3rem var(--pading_card_rigth) 3rem var(--pading_card_left);
 
