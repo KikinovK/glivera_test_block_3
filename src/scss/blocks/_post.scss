@@ -23,6 +23,14 @@
   }
 }
 
+.post__link_pic {
+  display: block;
+
+  @media (max-width: $point_1) {
+    width: 100%;
+  }
+}
+
 .post__pic {
   display: block;
   width: 28.1rem;

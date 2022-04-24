@@ -12,6 +12,8 @@
 	background-color: $color_bg_header;
 	border-radius: 4px;
 
+	overflow: hidden;
+
 	@media (max-width: $point_2) {
 		flex-direction: column;
 	}
