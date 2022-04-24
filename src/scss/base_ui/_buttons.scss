@@ -4,6 +4,8 @@
 // }
 
 .btn {
+  @extend %transition_color_background;
+
   align-self: center;
   min-width: 26rem;
   max-width: 30rem;
