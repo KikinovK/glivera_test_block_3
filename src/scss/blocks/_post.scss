@@ -5,7 +5,7 @@
   margin: 0 0 4rem 0;
 }
 
-.post__card {
+.post {
   --pading_card_left: 0;
   --pading_card_rigth: 1rem;
 
@@ -76,6 +76,8 @@
   font-weight: 300;
   line-height: 1.4;
   color: $color_text_content;
+
+  cursor: pointer;
 }
 
 .post__date {

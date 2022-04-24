@@ -1,8 +1,9 @@
 mixin post(data, gl_class)
-  div(class=`${gl_class}__card `)
-    +picture(data.picture)
+  div(class=gl_class)
+    a.post__link(href="#")
+      +picture(data.picture)
     .post__info
-      h2.post__title= data.title
+      a.post__title= data.title
       .post__inner
         span.post__autor= data.autor
         span.post__date= data.date
