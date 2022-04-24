@@ -15,7 +15,7 @@
 	width: 100%;
 	margin: 0 auto;
 
-	@media (max-width: $point_1) {
+	@include bp($point_1) {
 		max-width: 102.4rem;
 	}
 }

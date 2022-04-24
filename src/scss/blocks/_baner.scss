@@ -5,7 +5,7 @@
 }
 
 .baner__img, .baner__pic {
-  @media(max-width: $point_4) {
+  @include bp($point_4) {
     width: 100%;
   }
 }

@@ -35,17 +35,17 @@ body {
 	}
 }
 
-.wrapper {
-	width: 100%;
-	display: flex;
-	flex-direction: column;
-	min-height: 100%;
-	height: auto !important;
+// .wrapper {
+// 	width: 100%;
+// 	display: flex;
+// 	flex-direction: column;
+// 	min-height: 100%;
+// 	height: auto !important;
 
-	padding: 4rem 1rem 4rem 1rem;
+// 	padding: 4rem 1rem 4rem 1rem;
 
-	overflow-x: hidden;
-}
+// 	overflow-x: hidden;
+// }
 
 .base {
 	@extend %global_flex_block_row_nowrap_space_between;
@@ -57,7 +57,7 @@ body {
 
 	flex: 1 0 auto;
 
-	@media(max-width: $point_4) {
+	@include bp($point_4) {
     flex-direction: column;
   }
 }
