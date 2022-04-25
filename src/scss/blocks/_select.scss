@@ -14,7 +14,12 @@
 }
 
 .select__icon {
+  width: 4rem;
+  height: 4rem;
+
   margin-right: 3rem;
+
+  color: $color_link_base;
 }
 
 .select__title {
