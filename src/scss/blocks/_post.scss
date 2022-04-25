@@ -3,20 +3,12 @@
 .post {
 	@extend %global_flex_block_row_nowrap_flex-start;
 
-  --pading_card_left: 0;
-  --pading_card_rigth: 1rem;
-
-  // display: flex;
-  // align-items: start;
-
-  padding: 3rem var(--pading_card_rigth) 3rem var(--pading_card_left);
+  padding-bottom: 3rem;
 
   border-bottom: 1px solid $color_br_base;
 
   @include bp($point_1) {
     flex-direction: column;
-
-    --pading_card_left: 1rem;
   }
 }
 
