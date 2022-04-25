@@ -11,7 +11,7 @@ mixin post(data, gl_class)
         gl_class: gl_class + '_card',
         items: data.links
       })
-      .post__answer
-        span.answer__count= data.count
-        a.answer__link(href=data.linkAnswer aria-label="Show answer")
+      .post_answer
+        span.post_answer__count= data.count
+        a.post_answer__link(href=data.linkAnswer aria-label="Show answer")
           +icon('count')

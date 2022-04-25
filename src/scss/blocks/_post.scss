@@ -1,8 +1,4 @@
-.posts__list {
-	@extend %global_flex_block_column_nowrap_flex-start_stretch;
 
-  margin-bottom: 4rem;
-}
 
 .post {
 	@extend %global_flex_block_row_nowrap_flex-start;
@@ -127,13 +123,13 @@
   content: '';
 }
 
-.post__answer {
+.post_answer {
   @extend %global_flex_block_row_nowrap_flex-start_center;
   // display: flex;
   // align-items: center;
 }
 
-.answer__count {
+.post_answer__count {
   margin-right: .4rem;
 
   font-size: 1.4rem;
