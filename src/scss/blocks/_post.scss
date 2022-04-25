@@ -30,7 +30,7 @@
   }
 
   @include bp($point_4) {
-    height: calc(64wv - var(--pading_card_left) - var(--pading_card_rigth));
+    height: 64vw;
   }
 }
 
