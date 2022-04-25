@@ -13,5 +13,5 @@ mixin post(data, gl_class)
       })
       .post__answer
         span.answer__count= data.count
-        a.answer__link(href=data.linkAnswer)
+        a.answer__link(href=data.linkAnswer aria-label="Show answer")
           +icon('count')
