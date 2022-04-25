@@ -18,10 +18,12 @@
 	@extend %global_flex_block_row_nowrap_flex-start;
 
   margin-right: -4rem;
+
+  overflow: hidden;
 }
 
 .header_info__item {
-  margin-right: 4rem;
+  padding-right: 4rem;
 }
 
 .header_info__link {
