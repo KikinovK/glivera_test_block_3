@@ -3,11 +3,11 @@ extends ../layout/_layout
 block vars
 	- array = {body_class:'', layout_mod:'', sub_keywords:'', title_inner:'Index'}
 block content_block
-	main.main
-		h1.main__title Recent posts
-		ul.post__list
+	.posts
+		h1.posts__title Recent posts
+		ul.posts__list
 			each item in ArrayPost.items
-				li.post__item
+				li.posts__item
 					+post(item, ArrayPost.gl_class)
 		button.btn(type='button') older post
 	aside.sidebar
