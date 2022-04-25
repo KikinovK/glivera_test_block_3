@@ -1,4 +1,4 @@
-.menu_tag {
+.header_tag {
 	@extend %global_flex_block_row_nowrap_flex-start;
 
   font-family: $font_3;
@@ -12,7 +12,7 @@
   }
 }
 
-.menu_tag__title {
+.header_tag__title {
   margin-right: 4rem;
 
   color: $color_text_title;
@@ -22,7 +22,7 @@
   }
 }
 
-.menu_tag__list {
+.header_tag__list {
 	@extend %global_flex_block_row_nowrap_flex-start;
 
   margin-right: -4rem;
@@ -36,7 +36,7 @@
   }
 }
 
-.menu_tag__item {
+.header_tag__item {
   margin-right: 4rem;
 
   @include bp($point_1) {
@@ -44,6 +44,6 @@
   }
 }
 
-.menu_tag__link {
+.header_tag__link {
   color: $color_link_base;
 }

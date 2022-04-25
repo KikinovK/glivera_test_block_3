@@ -2,10 +2,10 @@ mixin header
 	header.header
 		.section_in
 			nav.header__nav
-				.menu_tag
-					span.menu_tag__title TAGS:
+				.header_tag
+					span.header_tag__title TAGS:
 					+menu({
-						gl_class: 'menu_tag',
+						gl_class: 'header_tag',
 						items: [
 						{title: 'bitcoin', url: '#', active: false},
 						{title: 'bittorrent', url: '#', active: false},
@@ -16,9 +16,9 @@ mixin header
 						{title: 'security', url: '#', active: false}
 						]
 					})
-				.menu_info
+				.header_info
 					+menu({
-						gl_class: 'menu_info',
+						gl_class: 'header_info',
 						items: [
 							{title: 'team', url: '#', active: false},
 							{title: 'contact', url: '#', active: false}

@@ -1,4 +1,4 @@
-.menu_info {
+.header_info {
 	@extend %global_flex_block_row_nowrap_flex-start;
 
   margin-left: auto;
@@ -14,16 +14,16 @@
 	}
 }
 
-.menu_info__list {
+.header_info__list {
 	@extend %global_flex_block_row_nowrap_flex-start;
 
   margin-right: -4rem;
 }
 
-.menu_info__item {
+.header_info__item {
   margin-right: 4rem;
 }
 
-.menu_info__link {
+.header_info__link {
   color: $color_link_second;
 }
