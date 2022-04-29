@@ -9,15 +9,14 @@
   letter-spacing: 1px;
   text-transform: uppercase;
 
-  @include bp($point_2) {
-		margin-top: 1rem;
-	}
+  overflow: hidden;
 }
 
 .header_info__list {
 	@extend %global_flex_block_row_nowrap_flex-start;
 
-  margin-right: -4rem;
+
+  margin: 0 -4rem 2rem 0;
 
   overflow: hidden;
 }

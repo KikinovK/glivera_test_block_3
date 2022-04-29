@@ -1,11 +1,16 @@
 .header_tag {
 	@extend %global_flex_block_row_nowrap_flex-start;
 
+  padding: 0 2rem 2rem 0;
+  margin:  0 -2rem -1rem 0;
+
   font-family: $font_3;
   font-weight: 500;
   font-size: 1.4rem;
   letter-spacing: 1px;
   text-transform: uppercase;
+
+  overflow: hidden;
 
   @include bp($point_4) {
     flex-wrap: wrap ;
@@ -13,19 +18,15 @@
 }
 
 .header_tag__title {
-  margin-right: 4rem;
-
+  padding: 0 2rem 1rem 0;
   color: $color_text_title;
-
-  @include bp($point_1) {
-    margin-right: 2rem;
-  }
 }
 
 .header_tag__list {
 	@extend %global_flex_block_row_nowrap_flex-start;
 
-  margin-right: -4rem;
+  padding: 0 2rem 1rem 0;
+  margin: 0 -4rem -1rem 0;
 
   overflow: hidden;
 
@@ -39,7 +40,7 @@
 }
 
 .header_tag__item {
-  padding-right: 4rem;
+  padding: 0 4rem 1rem 0;
 
   @include bp($point_1) {
     padding-right: 2rem;
