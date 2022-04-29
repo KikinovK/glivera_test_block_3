@@ -7,10 +7,11 @@ mixin post(data, gl_class)
       .post__inner
         span.post__autor= data.autor
         span.post__date= data.date
-      +menu({
-        gl_class: gl_class + '_card',
-        items: data.links
-      })
+      .post__cards
+        +menu({
+          gl_class: gl_class + '_card',
+          items: data.links
+        })
       .post_answer
         span.post_answer__count= data.count
         a.post_answer__link(href=data.linkAnswer || '#' aria-label="Show answer")

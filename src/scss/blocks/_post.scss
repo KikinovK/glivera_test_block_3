@@ -84,17 +84,18 @@
   border-left: 2px solid $color_text_note;
 }
 
+.post__cards {
+  margin-bottom: 1.6rem;
+}
 .post_card__list {
   @extend %global_flex_block_row_wrap_flex-start;
-  // display: flex;
-  // flex-wrap: wrap;
-  margin: 0 -1rem 1.6rem 0;
+  margin: 0 -1rem -1rem 0;
 
   overflow: hidden;
 }
 
 .post_card__item  {
-  padding-right: 1rem;
+  padding: 0 1rem 1rem 0;
 }
 
 
